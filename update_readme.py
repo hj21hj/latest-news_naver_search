@@ -4,7 +4,7 @@ from datetime import datetime
 
 NAVER_CLIENT_ID = os.getenv("NAVER_CLIENT_ID")
 NAVER_CLIENT_SECRET = os.getenv("NAVER_CLIENT_SECRET")
-SEARCH_QUERY = "인공지능 OR 클라우드 OR 정보기술 or AI or 신기술"  # 원하는 검색어
+SEARCH_QUERY = "한국언론진흥재단 OR 언론진흥재단 OR 언론재단 or KPF or 정부광고"  # 원하는 검색어
 
 def get_naver_news(query):
     url = "https://openapi.naver.com/v1/search/news.json"
